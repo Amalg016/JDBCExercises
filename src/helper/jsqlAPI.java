@@ -2,7 +2,7 @@ package helper;
 
 import java.sql.*;
 
-public class JDBCHelper {
+public class jsqlAPI {
 	String url;
 	String uname;
 	String pass;	
@@ -11,7 +11,7 @@ public class JDBCHelper {
 	Connection con;
 	
 	
- public JDBCHelper(String url,String uname,String pass) throws SQLException {
+ public jsqlAPI(String url,String uname,String pass) throws SQLException {
 	 this.url=url;
 	 this.uname=uname;
 	 this.pass=pass;	 
